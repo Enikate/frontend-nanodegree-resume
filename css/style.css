@@ -2,12 +2,13 @@ body {
   background-image: url(../images/concrete_seamless.png);
   background-position: initial initial;
   background-repeat: initial initial;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
 }
 
 .clearfix {
@@ -97,11 +98,7 @@ a {
   display: none;
 }
 
-.orange {
-
-}
-
-.orange-text {
+.gray-text {
   color: #999999;
 }
 
@@ -110,20 +107,10 @@ a {
   color: #2378B5;
 }
 
-.gray {
+.transparent-gray {
   background-color: rgba(255,255,255,0.4);
-  /*background-color: #F3F3F3;*/
   padding-bottom: 10px;
   clear:both;
-}
-
-.dark-gray {
-  /*background-color: #4A4A4A;*/
-    background-color: rgba(255,255,255,0.4);
-}
-
-#header {
-  /*background-color: #484848;*/
 }
 
 .flex-box {
@@ -159,7 +146,6 @@ img {
 
 .chart div {
   font: 10px sans-serif;
-  /*background-color: #4A4A4A;*/
   text-align: right;
   padding: 3px;
   margin: 1px;
