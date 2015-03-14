@@ -1,3 +1,9 @@
+body {
+  background-image: url(../images/concrete_seamless.png);
+  background-position: initial initial;
+  background-repeat: initial initial;
+}
+
 * {
   padding:0;
   margin:0;
@@ -15,7 +21,7 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #2378B5;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +29,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #2378B5;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,7 +37,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  color: #999999;
   line-height: 22px;
 }
 
@@ -82,41 +88,42 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #1199C3;
   line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #999999;
   display: none;
 }
 
 .orange {
-  background-color: #F5AE23;
+
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #999999;
 }
 
 .white-text {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #2378B5;
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: rgba(255,255,255,0.4);
+  /*background-color: #F3F3F3;*/
   padding-bottom: 10px;
   clear:both;
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  /*background-color: #4A4A4A;*/
+    background-color: rgba(255,255,255,0.4);
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  /*background-color: #484848;*/
 }
 
 .flex-box {
@@ -150,10 +157,9 @@ img {
   padding: 10px;
 }
 
-/* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;
-  background-color: #4A4A4A;
+  /*background-color: #4A4A4A;*/
   text-align: right;
   padding: 3px;
   margin: 1px;
